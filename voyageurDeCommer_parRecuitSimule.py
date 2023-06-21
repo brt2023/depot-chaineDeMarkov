@@ -266,26 +266,26 @@ if __name__ == '__main__':
 
     
     
-##    GENERALISATION
-#    #    Repartition aleatoire des N villes(x,y) sur le domaine [0..1]x[0..1]
-#    N = 10
-#    x = np.random.uniform(size=N)
-#    y = np.random.uniform(size=N)
-#    ville = np.array([x,y])
-#
-#    
-##    Definition du trajet initial: ordre croissant des villes
-#    indice_ville = np.arange(N)
-#    indice_ville_init = indice_ville.copy()
-#    
-##    Affichage du reseau
-#    plt.figure(figsize=(8,5))
-#    plt.plot(x[indice_ville_init],y[indice_ville_init],color='r')
-#    plt.plot(x[indice_ville],y[indice_ville],color='g')
-#    plt.xlabel('x')
-#    plt.ylabel('y')
-#    plt.grid()
-#    plt.title('trajet initial')
-#    plt.show()
+#    GENERALISATION
+    #    Repartition aleatoire des N villes(x,y) sur le domaine [0..1]x[0..1]
+    N = 10
+    x = np.random.uniform(size=N)
+    y = np.random.uniform(size=N)
+    ville = np.array([x,y])
+
+    
+#    Definition du trajet initial: ordre croissant des villes
+    indice_ville = np.arange(N)
+    indice_ville_init = indice_ville.copy()
+    
+#    Affichage du reseau
+    plt.figure(figsize=(8,5))
+    plt.plot(x[indice_ville_init],y[indice_ville_init],color='r')
+    plt.plot(x[indice_ville],y[indice_ville],color='g')
+    plt.xlabel('x')
+    plt.ylabel('y')
+    plt.grid()
+    plt.title('trajet initial')
+    plt.show()
 
     
